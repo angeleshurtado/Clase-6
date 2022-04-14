@@ -46,15 +46,7 @@
                         datasets: [{label: "Earthquakes", data: numeros, backgroundColor: colores}]
                     },
                      options: {
-                        scales: {
-                            y: {
-                                ticks: {
-                                    callback: function (numero) {
-                                        return numero.toLocaleString("es-CL");
-                                    }
-                                }
-                            }
-                        },
+                        
                         plugins: {
                             title: { display: true, text: "TERREMOTOS MAYORES A 4.5 EN EL ÚLTIMO MES" },
                         }

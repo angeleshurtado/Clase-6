@@ -40,15 +40,7 @@
                         datasets: [{label: "Earthquakes", data: numeros, backgroundColor: colores}]
                     },
                      options: {
-                        scales: {
-                            y: {
-                                ticks: {
-                                    callback: function (numero) {
-                                        return numero.toLocaleString("es-CL");
-                                    }
-                                }
-                            }
-                        },
+                       
                         plugins: {
                             title: { display: true, text: "CANTIDAD DE TERREMOTOS CON Y SIN ALERTA DE TSUNAMI EN EL ÚLTIMO MES" },
                         }
